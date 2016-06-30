@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="页面描述"/>
+		<meta name="keywords" content="关键字,关键字"/>
+		<meta name="robots" content="index,follow"/>
+		<meta name="renderer" content="webkit">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+		<script type="text/javascript" src="./js/bdMap.js"></script>
+	</head>
+	<body>
+		<!--左侧导航-->
+		<div class="nav">
+			<ul>
+				<li data-i="1" class="active"><a href="javascript:;">Home</a></li>
+				<li data-i="2"><a href="javascript:;">关于中昊</a></li>
+				<li data-i="3"><a href="javascript:;">中昊新闻</a></li>
+				<li data-i="4"><a href="javascript:;">中昊项目</a></li>
+				<li data-i="5"><a href="javascript:;">学术研究</a></li>
+				<li data-i="6"><a href="javascript:;">加入中昊</a></li>
+				<li data-i="7"><a href="javascript:;">联系我们</a></li>
+				<li><a href="javascript:;">back</a></li>
+			</ul>
+		</div>
+		
+		<!--页面主体-->
+		<div id="main">
+			<div class="section section1">
+				<div class="logo page">
+					<img src="./images/logo.png"/>
+				</div>
+				<div class="remind"><img src="./images/2.png"/></div>
+			</div>
+			<div class="section section2">
+				<div class="into"><img src="./images/into.png"/></div>
+				<div class="about page"><a href="javascript:toMain('about');"><img src="./images/about.png"/></a></div>
+			</div>
+			<div class="section section3">
+				<div class="into"><img src="./images/into.png"/></div>
+				<div class="news page"><a href="javascript:toMain('news');"><img src="./images/news.png"/></a></div>
+			</div>
+			<div class="section section4">
+				<div class="into"><img src="./images/into.png"/></div>
+				<div class="project page"><a href="javascript:toMain('project');"><img src="./images/project.png"/></a></div>
+			</div>
+			<div class="section section5">
+				<div class="into"><img src="./images/into.png"/></div>
+				<div class="research page"><a href="javascript:toMain('research');"><img src="./images/research.png"/></a></div>
+			</div>
+			<div class="section section6">
+				<div class="into"><img src="./images/into.png"/></div>
+				<div class="join page"><a href="javascript:toMain('join');"><img src="./images/join.png"/></a></div>
+			</div>
+			<div class="section section7">
+				<div class="contact page">
+					<a href="javascript:;"><img src="./images/contact.png"/></a>
+				</div>
+				<div class="contact_btn cl">
+					<a href="javascript:showMap();" class="location fl"></a>
+					<a href="" class="sina fl"></a>
+					<a href="" class="wechat fl"></a>
+				</div>
+				<div class="remind toTop"><a href="javascript:;"><img src="./images/3.png"/></a></div>
+			</div>
+		</div>
+		
+		<!--地图容器-->
+		<div id="map"></div>
+		
+		<!--内页容器（ajax导入）-->
+		<div class="main"></div>
+		
+		<div class="opacity_bg">
+			<!--ajax请求等待-->
+			<ul class="wait">
+				<li class="on"></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+		</div>
+		
+		<!--中昊新闻详情页开门效果-->
+		<div class="news_and_join_detail_door"></div>
+		
+		<!--中昊新闻详情页容器（ajax导入）-->
+		<div class="news_and_join_child_bg">			
+			<div class="child_wrap">
+				<div class="content"></div>
+				<a href="javascript:;"><img src="./images/close.png"/></a>
+			</div>
+		</div>
+		
+		<!--中昊项目二级菜单容器（ajax导入）-->
+		<div class="inner_project_menu"></div>
+		<!--中昊项目详情页容器（ajax导入）-->
+		<div class="inner_project_detail"></div>
+		<div class="inner_project_bg"></div>
+		
+		<!--help-->
+		<div class="help"><a href="javascript:;"><img src="./images/help_close.png"/></a></div>
+		
+		<!--线条-->
+		<div class="line line1"></div>
+		<div class="line line2"></div>
+		<div class="line line3"></div>
+		<div class="line line4"></div>
+		<div class="line line5"></div>
+		<div class="line line6"></div>
+		<div class="line line7"></div>
+		<div class="line line8"></div>
+		<div class="line line9"></div>
+		<div class="line line10"></div>
+		<div class="line line11"></div>
+		<div class="line line12"></div>
+		<div class="line line13"></div>
+		<div class="line line14"></div>
+		<div class="line line15"></div>
+		<div class="line line16"></div>
+		<div class="line line17"></div>
+		<div class="line line18"></div>
+		<div class="line line19"></div>
+		<div class="line line20"></div>
+		<div class="line line21"></div>
+	</body>
+<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="./js/jquery.easings.min.js"></script>
+<script type="text/javascript" src="./js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="./js/js.js"></script>
+</html>
